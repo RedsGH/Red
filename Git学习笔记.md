@@ -20,7 +20,7 @@ Git is a [free and open source](https://git-scm.com/about/free-and-open-source) 
 
 第一个是你的 `工作目录`，它持有实际文件；第二个是 `暂存区（Index）`，它像个缓存区域，临时保存你的改动；最后是 `HEAD`，它指向你最后一次提交的结果。
 
-![](F:\GitHub\red\图片\trees.png)
+![](Git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.assets/trees.png)
 
 # 添加和提交
 
@@ -45,7 +45,7 @@ Git is a [free and open source](https://git-scm.com/about/free-and-open-source) 
 
 分支是用来将特性开发绝缘开来的。在你创建仓库的时候，*master* 是“默认的”分支。在其他分支上进行开发，完成后再将它们合并到主分支上。
 
-![](F:\GitHub\red\图片\branches.png)
+![](Git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.assets/branches.png)
 
 创建一个叫做“feature_x”的分支，并切换过去：
 `git checkout -b feature_x`
